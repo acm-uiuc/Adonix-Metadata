@@ -1,0 +1,32 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "Config Schema",
+    "required": [
+        "iosVersion",
+        "androidVersion"
+    ],
+    "properties": {
+        "iosVersion": {
+            "type": "string",
+            "default": "",
+            "title": "The iosVersion Schema",
+            "examples": [
+                "2024.1.1"
+            ]
+        },
+        "androidVersion": {
+            "type": "string",
+            "default": "",
+            "title": "The androidVersion Schema",
+            "examples": [
+                "2024.1.1"
+            ]
+        }
+    },
+    "examples": [{
+        "iosVersion": "2024.1.1",
+        "androidVersion": "2024.1.1"
+    }]
+}
