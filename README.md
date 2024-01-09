@@ -1,5 +1,5 @@
 # Adonix-Metadata
-Config files for Adonix
+Config files for Adonix.
 
 ## Versioning 
 Used to notify users that there has been an app update. 
